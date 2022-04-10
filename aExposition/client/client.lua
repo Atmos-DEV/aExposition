@@ -124,8 +124,8 @@ local function openMenu()
                         RequestModel(model)
                         while not HasModelLoaded(model) do Wait(1) end
                         vehicle2 = CreateVehicle(model, cempla2.x,cempla2.y,cempla2.z, 156.01, true, false)
-                        SetVehicleDoorsLocked(vehicle, 2)
-                        FreezeEntityPosition(vehicle, true)
+                        SetVehicleDoorsLocked(vehicle2, 2)
+                        FreezeEntityPosition(vehicle2, true)
                         ESX.ShowNotification("Véhicule spawn !")
                         empla2 = false
                     end
@@ -145,8 +145,8 @@ local function openMenu()
                         RequestModel(model)
                         while not HasModelLoaded(model) do Wait(1) end
                         vehicle3 = CreateVehicle(model, cempla3.x,cempla3.y,cempla3.z, 133.46, true, false)
-                        SetVehicleDoorsLocked(vehicle, 2)
-                        FreezeEntityPosition(vehicle, true)
+                        SetVehicleDoorsLocked(vehicle3, 2)
+                        FreezeEntityPosition(vehicle3, true)
                         ESX.ShowNotification("Véhicule spawn !")
                         empla3 = false
                     end
